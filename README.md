@@ -13,7 +13,7 @@ There are large differences in happiness among countries and continents, with us
 
 
 ## Analysis
-I use scikit-learn's linear regression model with recursive feature elimination to analyse the contribution of 21 World Development Indicators (WDIs) with the World Hapiness Score. I used the average Happiness score of the past five years, and started with a selection of the following WDIs per country for the past 10 years:
+I use scikit-learn's linear regression model with recursive feature elimination to analyse the contribution of 21 World Development Indicators (WDIs) with the World Hapiness Score. I used the average Happiness score of the past five years, and started with the following WDIs per country for the past 10 years:
 * Access to electricity (% of population)  
 * CO2 emissions (metric tons per capita)  
 * Compulsory education, duration (years)  
