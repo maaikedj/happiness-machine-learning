@@ -1,4 +1,4 @@
-# Analysis of the UN's World Happiness Index using machine learning
+# Analysis of the UN's World Happiness Index with machine learning
 
 Maaike de Jong  
 June 2020
