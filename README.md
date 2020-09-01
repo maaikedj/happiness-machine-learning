@@ -13,7 +13,7 @@ There are large differences in happiness among countries and continents, with us
 
 
 ## Analysis
-I use scikit-learn's linear regression model with recursive feature elimination to analyse the contribution of 21 World Development Indicators (WDIs) with the World Hapiness Score. I used the average Happiness score of the past five years, and started with the following WDIs per country for the past 10 years:
+I use scikit-learn's linear regression model with recursive feature elimination to analyse the contribution of 20 World Development Indicators (WDIs) with the World Hapiness Score. I used the average Happiness score of the past five years, and started with the following WDIs per country for the past 10 years:
 * Access to electricity (% of population)  
 * CO2 emissions (metric tons per capita)  
 * Compulsory education, duration (years)  
@@ -26,13 +26,11 @@ I use scikit-learn's linear regression model with recursive feature elimination 
 * People using at least basic drinking water services (% of population)  
 * Population density (people per sq. km of land area)  
 * Population growth (annual %)  
-* Primary education, duration (years)  
 * Proportion of seats held by women in national parliaments (%)  
 * Refugee population by country or territory of origin  
 * Population, total  
 * Renewable energy consumption (% of total final energy consumption)  
 * School enrollment, primary (gross), gender parity index (GPI)  
-* Secondary education, duration (years)  
 * Terrestrial protected areas (% of total land area)  
 * Urban population (% of total population)  
 
@@ -41,9 +39,10 @@ The World Happiness Report data from 2015-2019 can be found on [Kaggle](https://
 I retrieved a csv file with 1400+ World Development Indicators for all countries from the [World Bank's website](http://datatopics.worldbank.org/world-development-indicators/) (under 'Bulk Downloads').
 
 ## File structure
-The analysis is divided over three notebooks:
-1. This notebook: data wrangling to combine the different datasets
-2. A second notebook for data exploration, cleaning and the regression analysis
-3. A third notebook for visualising the analysis in graphs and world maps
+The analysis is divided over four notebooks:
+1. Data wrangling to combine the different datasets
+2. Data cleaning and visual exploration
+3. Regression analysis with scikit-learn
+4. Visualising the data in graphs and world maps
 
 
